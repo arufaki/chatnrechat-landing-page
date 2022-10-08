@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+
+.hamburger {
+  @apply w-10 h-[5px] block rounded-lg transition-all ease-in-out duration-300;
+}
+
+.burger.active .line-1 {
+  @apply translate-y-[11px] rotate-[-45deg];
+}
+
+.burger.active .line-2 {
+  @apply opacity-0;
+}
+
+.burger.active .line-3 {
+  @apply w-10 translate-y-[-15px] rotate-[45deg] bg-secondary/80;
+}
+
+.list {
+  @apply text-base font-semibold text-dark hover:text-slate-400 transition-all ease-in-out duration-200;
+}
+
+.btn {
+  @apply text-base text-white px-8 py-3 rounded-xl font-semibold font-sourceSans tracking-wide;
+}
+
+.transitions {
+  @apply transition-all ease-in-out duration-300;
+}
+
+.downloads {
+  @apply font-inter text-xs tracking-wider text-dark/60 mb-2;
+}
+
+.count {
+  @apply font-inter text-dark text-xl font-semibold;
+}
+
+.h2 {
+  @apply font-dmSans font-normal text-2xl text-dark;
+}
+
+.h3 {
+  @apply font-sourceSans text-sm font-semibold;
+}
+
+.paragraph {
+  @apply text-base text-dark/60 mb-8 font-sourceSans;
+}
+
+.subtitle {
+  @apply font-dmSans font-normal text-lg text-dark mt-10 mb-3;
+}
+
+.icon {
+  @apply bg-dark/10 h-fit p-3 rounded-md;
+}
+
+.faqTitle {
+  @apply font-dmSans font-normal text-base md:text-lg text-dark;
+}
+
+.line {
+  @apply w-full h-1 border-t-[1px] border-dark/60 opacity-[0.1] mt-3;
+}
+
+@tailwind utilities;

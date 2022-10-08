@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Inter:wght@400;600&family=Montserrat&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="assets/svg/favicon.svg" />
+    <title>Chat n' rechat</title>
+  </head>
+  <body class="bg-primary h-screen max-w-[1024px] mx-auto">
+    <header class="mt-10">
+      <nav class="mx-auto px-5 flex justify-between items-center">
+        <div class="z-[99]">
+          <img src="assets/svg/favicon.svg" alt="" />
+        </div>
+        <div class="lister bg-primary fixed left-0 right-0 pl-5 pt-24 top-0 w-full h-full invisible transitions sm:flex sm:flex-row sm:justify-around sm:visible sm:bg-transparent sm:static sm:pt-0 sm:pl-0">
+          <ul class="space-y-10 space-x-0 sm:space-y-0 sm:flex sm:space-x-10">
+            <li class="list"><a href="#">Beranda</a></li>
+            <li class="list"><a href="#">Fitur-Fitur</a></li>
+            <li class="list"><a href="#">Teknologi</a></li>
+            <li class="list"><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="btnDownload z-[100] fixed top-[360px] invisible sm:visible sm:bg-transparent sm:static">
+          <a href="#" class="bg-secondary btn hover:bg-secondary/70 transitions active:bg-secondary/50 shadow-xxl">Download</a>
+        </div>
+        <div class="burger flex flex-col items-end z-[100] sm:hidden" id="hamburger">
+          <span class="hamburger line-1 bg-secondary/80"></span>
+          <span class="hamburger my-2 w-6 line-2 bg-secondary/40"></span>
+          <span class="hamburger w-3 line-3 bg-secondary/20"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="section-1" class="mt-24">
+        <div class="mx-auto px-5">
+          <div class="md:flex md:flex-row-reverse md:items-start">
+            <div class="hero-banner sm:max-w-md mx-auto md:max-w-full">
+              <img src="assets/svg/hero-banner.svg" alt="" class="w-full" />
+            </div>
+            <div class="mt-4 md:flex-[0_1_62%]">
+              <h3 class="text-secondary h3">CHAT N' RECHAT</h3>
+              <h1 class="text-3xl font-dmSans font-normal text-dark my-5 md:text-[34px] md:leading-10">Sebuah aplikasi chatting yang bisa bikin kamu lupa diri, tapi tidak lupa jasa pahlawan!</h1>
+              <p class="paragraph text-lg">Sebenernya banyak banget aplikasi chatting yang lebih bagus dari ini, maka dari itu lebih baik pake yang lain aja deh ya daripada pake aplikasi yang ini.</p>
+              <div class="space-x-3">
+                <button class="btn bg-secondary hover:bg-secondary/5 hover:text-secondary transitions space-x-2 shadow-xxl"><a href="#">Register</a><img src="assets/svg/arrow.svg" alt="" class="float-right mt-1" /></button>
+                <button class="btn bg-secondary/5 text-secondary hover:bg-secondary hover:text-white transitions"><a href="#">Learn More</a></button>
+              </div>
+              <div class="mt-[70px] flex flex-row space-x-6 items-center md:">
+                <div class="flex flex-row items-start space-x-4">
+                  <img src="assets/svg/download.svg" alt="" />
+                  <div>
+                    <p class="downloads">TOTAL DON’TLOUD</p>
+                    <h2 class="count md:text-[24px]">1,501,234</h2>
+                  </div>
+                </div>
+                <div class="w-[1] h-14 border-[1px] border-dark/60 opacity-[0.1]"></div>
+                <div class="flex flex-row items-start space-x-4">
+                  <img src="assets/svg/user.svg" alt="" />
+                  <div>
+                    <p class="downloads">TOTAL USERS</p>
+                    <h2 class="count md:text-[24px]">1,318,829</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my-28 bg-secondary/[0.05] rounded-2xl">
+            <img src="assets/img/sponsor.png" alt="" class="w-full p-10" />
+          </div>
+        </div>
+      </section>
+      <section id="section-2" class="">
+        <div class="mx-auto px-5">
+          <div class="text-center max-w-[488px] mx-auto">
+            <h3 class="h3 text-dark">NGGAK HARUS SIH SEBENERNYA</h3>
+            <h2 class="h2 my-4 md:text-[28px]">Kenapa Harus Pakai Chat N’ Rechat?</h2>
+            <p class="paragraph">Sebenernya yang bagus itu sih WhatsApp loh, mending pake WhatsApp aja deh. Yaudah berikut ini adalah fitur-fitur WhatsApp.</p>
+          </div>
+          <div class="md:flex md:flex-row md:justify-between sm:mt-24">
+            <div class="flex flex-col items-center text-center">
+              <img src="assets/img/card.png" alt="" class="max-w-[170px]" />
+              <h3 class="subtitle">Groups to keep in touch</h3>
+              <p class="paragraph">Keep in touch with the groups of people that matter the most, like your family or coworkers. With group chats, you can share messages, photos, and videos.</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+              <img src="assets/img/card-2.png" alt="" class="max-w-[250px]" />
+              <h3 class="subtitle md:mt-5">Simple, Reliable Messaging</h3>
+              <p class="paragraph">Message your friends and family for free*. WhatsApp uses your phone's Internet connection to send messages so you can avoid SMS fees.</p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+              <img src="assets/img/card-1.png" alt="" class="max-w-[170px]" />
+              <h3 class="subtitle">Speak Freely</h3>
+              <p class="paragraph">With voice calls, you can talk to your friends and family for free*, even if they're in another country. And with free* video calls, you can have face-to-face conversations.</p>
+            </div>
+          </div>
+          <div class="w-full h-1 border-t-[1px] border-dark/60 opacity-[0.1] sm:my-24"></div>
+        </div>
+      </section>
+      <section id="section-3">
+        <div class="mx-auto px-5">
+          <div class="md:flex md:flex-row md:items-start">
+            <div class="max-w-[495px] md:max-w-full">
+              <img src="assets/svg/phone-banner.svg" alt="" />
+            </div>
+            <div class="md:flex-[0_1_75%] lg:flex-[0_1_50%]">
+              <h3 class="h3 text-dark">TEKNOLOGI YANG DIGUNAKAN</h3>
+              <h2 class="h2 my-3 md:text-[28px] leading-10">Teknologi Yang Kami Gunakan Di Dalam Aplikasi Ini Akan Membuat DHH Dan Jason Fried Pensiun! 😱</h2>
+              <p class="paragraph">
+                Lo bisa bayangin DHH sama Jason Fried aja jadi pensiun gegara aplikasi ini, apalagi lo yang cuma user dan beban kami, gegara lo pake dan daftar di aplikasi ini jadi kita harus bayar server DO tiap bulan, mana pas bayar harus
+                tunjuk-tunjukan. Inilah alasan kenapa gak usah daftar:
+              </p>
+              <div class="flex flex-row items-start justify-start space-x-5">
+                <img src="assets/svg/angry.svg" alt="" class="icon" />
+                <div class="">
+                  <h3 class="subtitle font-medium text-[#000000] mt-0">Kamu Adalah Beban Kami</h3>
+                  <p class="paragraph">Semakin banyak kamu yang mendaftar di aplikasi ini, artinya semakin banyak data yang perlu disimpan, nah kan jadi perlu server gede tuh. Makanya kamu beban!</p>
+                </div>
+              </div>
+              <div class="flex flex-row space-x-5">
+                <img src="assets/svg/panda.svg" alt="" class="icon" />
+                <div>
+                  <h3 class="subtitle font-medium text-[#000000] mt-0">Males Buat Ngembangin</h3>
+                  <p class="paragraph">Lo bakal nemu bug, entah pesan yang mau dikirim gak bisa dikirim padahal lo belom pencet tombol enter atau masalah lainnya. Nah soal itu kita males buat benerin.</p>
+                </div>
+              </div>
+              <div class="flex flex-row space-x-5">
+                <img src="assets/svg/turu.svg" alt="" class="icon" />
+                <div>
+                  <h3 class="subtitle font-medium text-[#000000] mt-0">Pokoknya Males Aja Lah</h3>
+                  <p class="paragraph">Nggak tau lagi harus ngomong apa, pokoknya males aja sih kita bikin aplikasi chat kek gini. Makannya mending lo pake WhatsApp aja udah.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-4">
+        <div class="mx-auto p-5">
+          <div>
+            <img src="assets/img/banner-download.png" alt="" class="w-full" />
+          </div>
+        </div>
+      </section>
+      <section id="section-5">
+        <div class="mx-auto p-5">
+          <div class="text-center max-w-[488px] mx-auto">
+            <h3 class="h3 text-dark">BANYAK YANG NANYA</h3>
+            <h2 class="h2 my-4 md:text-[28px]">Pertanyaan Yang Sering Ditanyain</h2>
+            <p class="paragraph">Sebenernya pertanyaan-pertanyaan ini kagak ada yang nanya sih, tapi ya ditaruh sini aja siapa tau lo mau baca ‘kan.</p>
+          </div>
+          <div class="max-w-2xl mx-auto">
+            <div class="faq p-4 rounded-md transitions">
+              <div class="flex justify-between asking cursor-pointer">
+                <h3 class="titling faqTitle">Apakah aplikasi ini sudah dapat izin dari MUI?</h3>
+                <span class="material-symbols-outlined h-5 transitions"> expand_more </span>
+              </div>
+              <div class="liner line"></div>
+              <p class="answer hidden paragraph text-left text-sm font-normal mb-0 descriptions md:text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem voluptates illo, illum fuga distinctio? Ut, at! Non distinctio iure possimus repellendus id, libero hic numquam, quis labore nemo velit?
+              </p>
+            </div>
+            <div class="faq p-4 rounded-md transitions">
+              <div class="flex justify-between asking cursor-pointer">
+                <h3 class="titling faqTitle">Apakah aplikasi ini gratis?</h3>
+                <span class="material-symbols-outlined h-5 transitions"> expand_more </span>
+              </div>
+              <div class="liner line"></div>
+              <p class="answer hidden paragraph text-left text-sm font-normal mb-0 descriptions md:text-base">
+                Ya gratis dong, masa aplikasi chat aja berbayar sih. Lo kalo nanya yang bener dong. Bayangin aja kalo aplikasi ini berbayar, masa pas chat lo harus bayar setiap karakter. Kalo lo mau bayar mending pake MMS aja dah.
+              </p>
+            </div>
+            <div class="faq p-4 rounded-md transitions">
+              <div class="flex justify-between asking cursor-pointer">
+                <h3 class="titling faqTitle">Apakah data saya akan dijual ke agen khusus US?</h3>
+                <span class="material-symbols-outlined h-5 transitions"> expand_more </span>
+              </div>
+              <div class="liner line"></div>
+              <p class="answer hidden paragraph text-left text-sm font-normal mb-0 descriptions md:text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem voluptates illo, illum fuga distinctio? Ut, at! Non distinctio iure possimus repellendus id, libero hic numquam, quis labore nemo velit?
+              </p>
+            </div>
+            <div class="faq p-4 rounded-md transitions">
+              <div class="flex justify-between asking cursor-pointer">
+                <h3 class="titling faqTitle">Kenapa bumi muter? Apa karena di depan ada yang nikah?</h3>
+                <span class="material-symbols-outlined h-5 transitions"> expand_more </span>
+              </div>
+              <div class="liner line"></div>
+              <p class="answer hidden paragraph text-left text-sm font-normal mb-0 descriptions md:text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem voluptates illo, illum fuga distinctio? Ut, at! Non distinctio iure possimus repellendus id, libero hic numquam, quis labore nemo velit?
+              </p>
+            </div>
+            <div class="faq p-4 rounded-md transitions">
+              <div class="flex justify-between asking cursor-pointer">
+                <h3 class="titling faqTitle">Gimana caranya supaya si Rizal mau bikin konten buat Array ID?</h3>
+                <span class="material-symbols-outlined h-5 transitions"> expand_more </span>
+              </div>
+              <div class="liner line"></div>
+              <p class="answer hidden paragraph text-left text-sm font-normal mb-0 descriptions md:text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem voluptates illo, illum fuga distinctio? Ut, at! Non distinctio iure possimus repellendus id, libero hic numquam, quis labore nemo velit?
+              </p>
+            </div>
+            <div class="faq p-4 rounded-md transitions">
+              <div class="flex justify-between asking cursor-pointer">
+                <h3 class="titling faqTitle">Pertanyaan di atas gabakal ada yang bisa jawab sih</h3>
+                <span class="material-symbols-outlined h-5 transitions"> expand_more </span>
+              </div>
+              <div class="liner line"></div>
+              <p class="answer hidden paragraph text-left text-sm font-normal mb-0 descriptions md:text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem voluptates illo, illum fuga distinctio? Ut, at! Non distinctio iure possimus repellendus id, libero hic numquam, quis labore nemo velit?
+              </p>
+            </div>
+            <div class="faq p-4 rounded-md transitions">
+              <div class="flex justify-between asking cursor-pointer">
+                <h3 class="titling faqTitle">Kenapa game epep burik, bang?</h3>
+                <span class="material-symbols-outlined h-5 transitions"> expand_more </span>
+              </div>
+              <div class="liner line"></div>
+              <p class="answer hidden paragraph text-left text-sm font-normal mb-0 descriptions md:text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rem voluptates illo, illum fuga distinctio? Ut, at! Non distinctio iure possimus repellendus id, libero hic numquam, quis labore nemo velit?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="mx-auto p-5 bg-secondary/5 rounded-t-md lg:px-20 lg:pt-20 lg:pb-16">
+        <div class="space-y-10 md:space-y-0 md:flex md:flex-row md:max-w-[864px] md:mx-auto">
+          <div class="md:flex-[0_1_50%]">
+            <div class="flex flex-row space-x-4">
+              <img src="assets/svg/favicon.svg" alt="" />
+              <h3 class="font-dmSans text-lg font-medium">Chat N’ Rechat</h3>
+            </div>
+            <p class="paragraph mt-5">Sebenernya banyak banget aplikasi chatting yang lebih bagus dari ini, maka dari itu lebih baik pake yang lain aja deh ya daripada pake aplikasi yang ini.</p>
+            <h3 class="h3 text-dark/60">COPYRIGHT (C) 2021. DESIGN BY NAUVAL</h3>
+          </div>
+          <div class="md:flex-1 md:flex md:flex-col md:items-center">
+            <h3 class="font-dmSans text-lg font-medium">Sitemap</h3>
+            <ul class="space-y-5 mt-5">
+              <li class="paragraph font-semibold"><a href="#">Beranda</a></li>
+              <li class="paragraph font-semibold"><a href="#">Fitur-Fitur</a></li>
+              <li class="paragraph font-semibold"><a href="#">Teknologi</a></li>
+              <li class="paragraph font-semibold"><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="md:flex-[0_1_22%]">
+            <h3 class="font-dmSans text-lg font-medium">Tetap Terhubung</h3>
+            <p class="paragraph mt-5">Lihat kami pansos di sosial media berikut:</p>
+            <div class="space-x-2">
+              <i class="fa-brands fa-instagram icon text-dark text-xl"></i>
+              <i class="fa-brands fa-facebook-f icon text-dark text-xl"></i>
+              <i class="fa-brands fa-twitter icon text-dark text-xl"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/91e48a44b3.js" crossorigin="anonymous"></script>
+  </body>
+</html>
